@@ -2,7 +2,7 @@
   description = "raspberry-pi nixos configuration";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     rpi-linux-stable-src = {
       flake = false;
       url = "github:raspberrypi/linux/stable_20241008";
@@ -17,7 +17,7 @@
     };
     rpi-firmware-src = {
       flake = false;
-      url = "github:raspberrypi/firmware/1.20241008";
+      url = "github:raspberrypi/firmware/1.20250430";
     };
     rpi-firmware-nonfree-src = {
       flake = false;
@@ -29,7 +29,7 @@
     };
     rpicam-apps-src = {
       flake = false;
-      url = "github:raspberrypi/rpicam-apps/v1.5.2";
+      url = "github:raspberrypi/rpicam-apps/v1.7.0";
     };
     libcamera-src = {
       flake = false;
@@ -37,7 +37,7 @@
     };
     libpisp-src = {
       flake = false;
-      url = "github:raspberrypi/libpisp/v1.0.7";
+      url = "github:raspberrypi/libpisp/v1.2.1";
     };
   };
 
